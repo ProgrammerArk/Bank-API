@@ -44,8 +44,3 @@ If a person with userID of 1 tries to access or modify someone else information 
 with an error message: "You can only access your own user details"
 
 Reusing an already registered email is a 409 Conflict with the "message": "Email already exists",
-<<<<<<< HEAD
-
-
-=======
->>>>>>> cd0e1d806b15f80b1b7bbec49797075f163d2061
