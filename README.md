@@ -20,9 +20,7 @@ All endpoints except user registration require the X-User-Id header for authenti
 
 ## Creating a New User
 **URL**: *POST* http://localhost:8080/api/v1/users
-Content-Type: application/json
 
-Body (Raw JSON)
 ```JSON
 {
   "firstName": "John",
@@ -81,7 +79,7 @@ Body (Raw JSON)
 ```
 
 ## Making a New Withdrawal
-**URL**: *DELETE* http://localhost:8080/api/v1/accounts/{accountID}/transactions
+**URL**: *POST* http://localhost:8080/api/v1/accounts/{accountID}/transactions
 **Postman Headers**: Key: X-User-Id     Value: {userID}
 
 ```JSON
