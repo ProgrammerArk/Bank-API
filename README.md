@@ -40,7 +40,4 @@ Postman Headers: Key: X-User-Id     Value: {userID}
 
 ## Security and Validation
 
-If a person with userID of 1 tries to access or modify someone else information by using X-User-Id of a different user, they receive a 403
-with an error message: "You can only access your own user details"
-
-Reusing an already registered email is a 409 Conflict with the "message": "Email already exists",
+Added security and validation so that people who don't own the bank account (don't have a matching X-User-Id and userID) are unable to read update or modify any details of a different account. This is true for creating new bank account, modifying details, or deleting data and information.
