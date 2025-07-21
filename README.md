@@ -9,12 +9,11 @@ A comprehensive REST API for a Bank that allows users to manage their personal d
 - **Validation**: Comprehensive input validation and error handling
 
 ## Technology Stack Used
-
-Java 17
-Spring Boot 3.5.3
-Spring Data JPA
-H2 Database (in-memory for development)
-Maven (build tool)
+- Java 17
+- Spring Boot 3.5.3
+- Spring Data JPA
+- H2 Database (in-memory for development)
+- Maven (build tool)
 
 All endpoints except user registration require the X-User-Id header for authentication.
 
